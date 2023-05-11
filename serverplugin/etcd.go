@@ -10,12 +10,12 @@ import (
 	"sync"
 	"time"
 
+	estore "github.com/AllenCXS/rpcx-etcd/store"
+	"github.com/AllenCXS/rpcx-etcd/store/etcd"
+	"github.com/AllenCXS/rpcx/log"
 	metrics "github.com/rcrowley/go-metrics"
 	"github.com/rpcxio/libkv"
 	"github.com/rpcxio/libkv/store"
-	estore "github.com/rpcxio/rpcx-etcd/store"
-	"github.com/rpcxio/rpcx-etcd/store/etcd"
-	"github.com/smallnest/rpcx/log"
 )
 
 func init() {

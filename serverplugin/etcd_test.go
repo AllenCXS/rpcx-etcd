@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/AllenCXS/rpcx/server"
 	metrics "github.com/rcrowley/go-metrics"
-	"github.com/smallnest/rpcx/server"
 )
 
 type Args struct {

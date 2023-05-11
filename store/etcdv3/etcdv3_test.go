@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
+	estore "github.com/AllenCXS/rpcx-etcd/store"
 	"github.com/rpcxio/libkv"
 	"github.com/rpcxio/libkv/store"
 	"github.com/rpcxio/libkv/testutils"
-	estore "github.com/rpcxio/rpcx-etcd/store"
 	"github.com/stretchr/testify/assert"
 )
 
